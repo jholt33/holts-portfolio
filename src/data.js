@@ -4,28 +4,7 @@ const projects = [
     name: "Susie",
     image: "https://placedog.net/800/640?id=32",
     content: (
-      <>
-        <>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum
-            officiis doloremque quaerat ipsa vero culpa dolores optio
-            perspiciatis, placeat sint aspernatur dicta rerum ipsum eveniet
-            omnis mollitia ratione repellat.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum
-            officiis doloremque quaerat ipsa vero culpa dolores optio
-            perspiciatis, placeat sint aspernatur dicta rerum ipsum eveniet
-            omnis mollitia ratione repellat.
-          </p>
-        </>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum
-          officiis doloremque quaerat ipsa vero culpa dolores optio
-          perspiciatis, placeat sint aspernatur dicta rerum ipsum eveniet omnis
-          mollitia ratione repellat.
-        </p>
-      </>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
     ),
     projectURL: "https://placedog.net/",
   },
@@ -34,20 +13,7 @@ const projects = [
     name: "Jimmy",
     image: "https://placedog.net/800/640?id=100",
     content: (
-      <>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum
-          officiis doloremque quaerat ipsa vero culpa dolores optio
-          perspiciatis, placeat sint aspernatur dicta rerum ipsum eveniet omnis
-          mollitia ratione repellat.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum
-          officiis doloremque quaerat ipsa vero culpa dolores optio
-          perspiciatis, placeat sint aspernatur dicta rerum ipsum eveniet omnis
-          mollitia ratione repellat.
-        </p>
-      </>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
     ),
     projectURL: "https://placedog.net/",
   },
@@ -56,20 +22,7 @@ const projects = [
     name: "Hank",
     image: "https://placedog.net/800/640?id=69",
     content: (
-      <>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum
-          officiis doloremque quaerat ipsa vero culpa dolores optio
-          perspiciatis, placeat sint aspernatur dicta rerum ipsum eveniet omnis
-          mollitia ratione repellat.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum
-          officiis doloremque quaerat ipsa vero culpa dolores optio
-          perspiciatis, placeat sint aspernatur dicta rerum ipsum eveniet omnis
-          mollitia ratione repellat.
-        </p>
-      </>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
     ),
     projectURL: "https://placedog.net/",
   },
@@ -78,20 +31,7 @@ const projects = [
     name: "Bosley",
     image: "https://placedog.net/800/640?id=21",
     content: (
-      <>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum
-          officiis doloremque quaerat ipsa vero culpa dolores optio
-          perspiciatis, placeat sint aspernatur dicta rerum ipsum eveniet omnis
-          mollitia ratione repellat.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum
-          officiis doloremque quaerat ipsa vero culpa dolores optio
-          perspiciatis, placeat sint aspernatur dicta rerum ipsum eveniet omnis
-          mollitia ratione repellat.
-        </p>
-      </>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
     ),
     projectURL: "https://placedog.net/",
   },
@@ -100,20 +40,7 @@ const projects = [
     name: "Frank",
     image: "https://placedog.net/800/640?id=22",
     content: (
-      <>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum
-          officiis doloremque quaerat ipsa vero culpa dolores optio
-          perspiciatis, placeat sint aspernatur dicta rerum ipsum eveniet omnis
-          mollitia ratione repellat.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum
-          officiis doloremque quaerat ipsa vero culpa dolores optio
-          perspiciatis, placeat sint aspernatur dicta rerum ipsum eveniet omnis
-          mollitia ratione repellat.
-        </p>
-      </>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
     ),
     projectURL: "https://placedog.net/",
   },
@@ -122,20 +49,7 @@ const projects = [
     name: "Gloria",
     image: "https://placedog.net/800/640?id=24",
     content: (
-      <>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum
-          officiis doloremque quaerat ipsa vero culpa dolores optio
-          perspiciatis, placeat sint aspernatur dicta rerum ipsum eveniet omnis
-          mollitia ratione repellat.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum
-          officiis doloremque quaerat ipsa vero culpa dolores optio
-          perspiciatis, placeat sint aspernatur dicta rerum ipsum eveniet omnis
-          mollitia ratione repellat.
-        </p>
-      </>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
     ),
     projectURL: "https://placedog.net/",
   },
@@ -144,20 +58,7 @@ const projects = [
     name: "Robbie",
     image: "https://placedog.net/800/640?id=60",
     content: (
-      <>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum
-          officiis doloremque quaerat ipsa vero culpa dolores optio
-          perspiciatis, placeat sint aspernatur dicta rerum ipsum eveniet omnis
-          mollitia ratione repellat.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum
-          officiis doloremque quaerat ipsa vero culpa dolores optio
-          perspiciatis, placeat sint aspernatur dicta rerum ipsum eveniet omnis
-          mollitia ratione repellat.
-        </p>
-      </>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
     ),
     projectURL: "https://placedog.net/",
   },
@@ -166,20 +67,7 @@ const projects = [
     name: "Lonnie",
     image: "https://placedog.net/800/640?id=62",
     content: (
-      <>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum
-          officiis doloremque quaerat ipsa vero culpa dolores optio
-          perspiciatis, placeat sint aspernatur dicta rerum ipsum eveniet omnis
-          mollitia ratione repellat.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum
-          officiis doloremque quaerat ipsa vero culpa dolores optio
-          perspiciatis, placeat sint aspernatur dicta rerum ipsum eveniet omnis
-          mollitia ratione repellat.
-        </p>
-      </>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
     ),
     projectURL: "https://placedog.net/",
   },
@@ -188,20 +76,7 @@ const projects = [
     name: "Lady",
     image: "https://placedog.net/800/640?id=54",
     content: (
-      <>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum
-          officiis doloremque quaerat ipsa vero culpa dolores optio
-          perspiciatis, placeat sint aspernatur dicta rerum ipsum eveniet omnis
-          mollitia ratione repellat.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum
-          officiis doloremque quaerat ipsa vero culpa dolores optio
-          perspiciatis, placeat sint aspernatur dicta rerum ipsum eveniet omnis
-          mollitia ratione repellat.
-        </p>
-      </>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
     ),
     projectURL: "https://placedog.net/",
   },

@@ -34,7 +34,7 @@ function SingleProject() {
             >
               <div className="mt-3 mt-lg-0">
                 <h2>Project Info:</h2>
-                {content}
+                <p>{content}</p>
                 <hr></hr>
                 <div className="d-flex justify-content-between mb-5">
                   <span className="d-flex align-items-center">
