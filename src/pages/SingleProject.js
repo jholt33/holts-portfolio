@@ -1,3 +1,5 @@
+import React, { useState, useEffect } from 'react';
+
 import { useParams } from "react-router-dom";
 import projects from "../data";
 import PageTitle from "../components/PageTitle";
@@ -6,10 +8,18 @@ import Button from "react-bootstrap/Button";
 import { FaLink, FaAngleLeft } from "react-icons/fa";
 import { Animated } from "react-animated-css";
 
-function SingleProject() {
+const SingleProject = () => {
   const { projectId } = useParams();
   const project = projects.find((project) => project.id === projectId);
   const { image, name, content, projectURL } = project;
+  const [count, setCount] = useState(0);
+
+  useEffect(() => setCount((currentCount) => currentCount + 1), []);
+
+  const handleIncrement = () => setCount((currentCount) => currentCount + 1);
+
+  // const handleDecrement = () => setCount((currentCount) => currentCount - 1);
+
   return (
     <>
       <PageTitle title={name} />
@@ -44,6 +54,7 @@ function SingleProject() {
                   <a href={projectURL} rel="noreferrer" target="_blank">
                     {projectURL}
                   </a>
+                  {count}
                 </div>
                 <LinkContainer to="/projects">
                   <div className="text-left">
@@ -52,10 +63,14 @@ function SingleProject() {
                       className="d-flex align-items-center"
                       size="lg"
                     >
-                      <FaAngleLeft className="me-2" />Back to Projects
+                      <FaAngleLeft className="me-2" />
+                      Back to Projects
                     </Button>
                   </div>
                 </LinkContainer>
+                <Button onClick={handleIncrement} variant="primary" size="lg">
+                  Next
+                </Button>
               </div>
             </Animated>
           </div>

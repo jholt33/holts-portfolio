@@ -1,7 +1,7 @@
 import PageTitle from "../components/PageTitle";
 import ProjectCards from "../components/ProjectCards";
 
-function Projects() {
+const Projects = () => {
   return (
     <>
       <PageTitle title="Projects" subtitle="Past and Present Web Projects" />

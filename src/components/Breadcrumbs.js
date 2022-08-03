@@ -2,7 +2,7 @@ import Breadcrumb from "react-bootstrap/Breadcrumb";
 import { LinkContainer } from "react-router-bootstrap";
 import useBreadcrumbs from "use-react-router-breadcrumbs";
 
-function Breadcrumbs(props) {
+const Breadcrumbs = () => {
   const breadcrumbs = useBreadcrumbs();
   return (
     <>

@@ -1,7 +1,7 @@
 import PageTitle from "../components/PageTitle";
 import { Animated } from "react-animated-css";
 
-function About() {
+const About = () => {
   return (
     <>
       <PageTitle title="About" />

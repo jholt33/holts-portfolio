@@ -1,7 +1,7 @@
 import Breadcrumbs from "./Breadcrumbs";
 import "./PageTitle.scss";
 
-function PageTitle(props) {
+const PageTitle = (props) => {
   return (
     <section id="page-title">
       <div className="container d-lg-flex flex-wrap align-items-center">

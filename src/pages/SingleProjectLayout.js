@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 
-function SingleProjectLayout() {
+const SingleProjectLayout = () => {
   return (
     <>
       <Outlet />

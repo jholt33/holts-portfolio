@@ -9,7 +9,7 @@ import Projects from "./pages/Projects";
 import SingleProject from "./pages/SingleProject";
 import SingleProjectLayout from "./pages/SingleProjectLayout";
 
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
       <Routes>

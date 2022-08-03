@@ -7,7 +7,7 @@ import { FaHome, FaUserTie, FaBriefcase } from "react-icons/fa";
 
 import "./MainNav.scss";
 
-function MainNav() {
+const MainNav = () => {
   return (
     <header>
       <Navbar collapseOnSelect expand="md" fixed="top">
