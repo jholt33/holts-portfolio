@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Error = () => {
+function Error() {
   return (
     <section className="container my-5">
       <div className="text-center">

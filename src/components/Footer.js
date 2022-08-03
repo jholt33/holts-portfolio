@@ -1,6 +1,6 @@
 import "./Footer.scss";
 
-const Footer = () => {
+function Footer() {
   return (
     <footer className="footer mt-auto">
       <div className="container my-5">

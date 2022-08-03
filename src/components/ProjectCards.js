@@ -8,7 +8,7 @@ import { Animated } from "react-animated-css";
 
 import "./ProjectCards.scss";
 
-const ProjectCards = () => {
+function ProjectCards() {
   return (
     <Row>
       {projects.map((project) => {

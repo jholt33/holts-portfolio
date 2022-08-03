@@ -3,7 +3,7 @@ import ProjectCards from "../components/ProjectCards";
 
 import "./Home.scss";
 
-const Home = () => {
+function Home() {
   return (
     <Animated
       animationIn="fadeIn"

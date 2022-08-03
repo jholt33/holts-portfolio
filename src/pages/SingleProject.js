@@ -8,7 +8,7 @@ import Button from "react-bootstrap/Button";
 import { FaLink, FaAngleLeft } from "react-icons/fa";
 import { Animated } from "react-animated-css";
 
-const SingleProject = () => {
+function SingleProject() {
   const { projectId } = useParams();
   const project = projects.find((project) => project.id === projectId);
   const { image, name, content, projectURL } = project;
