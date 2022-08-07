@@ -1,24 +1,23 @@
-import React, { useState, useEffect } from 'react';
+// import React, { useState, useEffect } from "react";
 
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import projects from "../data";
 import PageTitle from "../components/PageTitle";
-import { LinkContainer } from "react-router-bootstrap";
+// import { LinkContainer } from "react-router-bootstrap";
 import Button from "react-bootstrap/Button";
-import { FaLink, FaAngleLeft } from "react-icons/fa";
+import { FaLink, FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import { Animated } from "react-animated-css";
 
 function SingleProject() {
   const { projectId } = useParams();
+  const navigate = useNavigate();
   const project = projects.find((project) => project.id === projectId);
   const { image, name, content, projectURL } = project;
-  const [count, setCount] = useState(0);
-
-  useEffect(() => setCount((currentCount) => currentCount + 1), []);
-
-  const handleIncrement = () => setCount((currentCount) => currentCount + 1);
-
-  // const handleDecrement = () => setCount((currentCount) => currentCount - 1);
+  const currentProjectIndex = projects.findIndex(
+    (project) => project.id === projectId
+  );
+  const nextProject = projects[currentProjectIndex + 1];
+  const prevProject = projects[currentProjectIndex - 1];
 
   return (
     <>
@@ -54,9 +53,8 @@ function SingleProject() {
                   <a href={projectURL} rel="noreferrer" target="_blank">
                     {projectURL}
                   </a>
-                  {count}
                 </div>
-                <LinkContainer to="/projects">
+                {/* <LinkContainer to="/projects">
                   <div className="text-left">
                     <Button
                       variant="primary"
@@ -67,10 +65,26 @@ function SingleProject() {
                       Back to Projects
                     </Button>
                   </div>
-                </LinkContainer>
-                <Button onClick={handleIncrement} variant="primary" size="lg">
-                  Next
-                </Button>
+                </LinkContainer> */}
+
+                <div className="d-flex justify-content-between">
+                  <Button
+                    onClick={() => navigate(`/projects/${prevProject.id}`)}
+                    variant="primary"
+                    size="lg"
+                    className="d-flex align-items-center"
+                  >
+                    <FaAngleLeft className="nav-icons" />
+                  </Button>
+                  <Button
+                    onClick={() => navigate(`/projects/${nextProject.id}`)}
+                    variant="primary"
+                    size="lg"
+                    className="d-flex align-items-center"
+                  >
+                    <FaAngleRight className="nav-icons" />
+                  </Button>
+                </div>
               </div>
             </Animated>
           </div>
