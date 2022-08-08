@@ -1,16 +1,21 @@
+// Override BS5 theme colors //
 $theme-colors: (
-    "primary": #6a88a7,
-    "secondary": #333,
+  "primary": #6a88a7,
+  "secondary": #333,
 );
 
-/* import bootstrap to set changes */
-@import '../src/fonts.scss';
+// Set theme color variables //
+$primary: #6a88a7;
+$secondary: #333;
+
+// import bootstrap to set changes //
+@import "../src/fonts.scss";
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css");
 
 body {
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
@@ -22,76 +27,73 @@ code {
     monospace;
 }
 
-$primary: #6a88a7;
-$secondary: #333;
-
 #root {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 main {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 a {
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    color: $primary;
-    &:hover {
-        color: $secondary;
-    }
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: $primary;
+  &:hover {
+    color: $secondary;
+  }
 }
 
 .btn,
 .btn-primary {
-    color: white;
+  color: white;
 
-    &:hover {
-        color: white;
-    }
+  &:hover {
+    color: white;
+  }
 }
 
 h1 {
-    font-family: 'Raleway', sans-serif;
-    margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 0;
 }
 
 h2 {
-    font-family: 'Raleway', sans-serif;
-    margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 0;
 }
 
 .text-bold {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .blue-border {
-    padding: 0 0 1rem;
-    border-bottom: 2px solid $primary;
-    margin-bottom: 1rem;
+  padding: 0 0 1rem;
+  border-bottom: 2px solid $primary;
+  margin-bottom: 1rem;
 }
 
 .breadcrumb {
-    margin-bottom: 0;
-    .breadcrumb-item {
-        &.active {
-            a {
-                color: $secondary;
-                text-decoration: none;
-                cursor: auto;
-            }
-        }
+  margin-bottom: 0;
+  .breadcrumb-item {
+    &.active {
+      a {
+        color: $secondary;
+        text-decoration: none;
+        cursor: auto;
+      }
     }
+  }
 }
 
 .card {
-    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
 
-    &:hover {
-        cursor: pointer;
-        box-shadow: 0px 3px 15px #999;
-        border: 1px solid #d2d2d2;
-    }
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0px 3px 15px #999;
+    border: 1px solid #d2d2d2;
+  }
 }
