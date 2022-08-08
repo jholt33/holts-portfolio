@@ -8,6 +8,8 @@ import Button from "react-bootstrap/Button";
 import { FaLink, FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import { Animated } from "react-animated-css";
 
+import "./SingleProject.scss";
+
 function SingleProject() {
   const { projectId } = useParams();
   const navigate = useNavigate();
@@ -76,6 +78,7 @@ function SingleProject() {
                   >
                     <FaAngleLeft className="nav-icons" />
                   </Button>
+                  <div>Navigate</div>
                   <Button
                     onClick={() => navigate(`/projects/${nextProject.id}`)}
                     variant="primary"
