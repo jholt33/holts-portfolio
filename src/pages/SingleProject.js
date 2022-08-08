@@ -3,9 +3,9 @@
 import { useParams, useNavigate } from "react-router-dom";
 import projects from "../data";
 import PageTitle from "../components/PageTitle";
-// import { LinkContainer } from "react-router-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
 import Button from "react-bootstrap/Button";
-import { FaLink, FaAngleLeft, FaAngleRight } from "react-icons/fa";
+import { FaLink, FaAngleLeft, FaAngleRight, FaThLarge } from "react-icons/fa";
 import { Animated } from "react-animated-css";
 
 import "./SingleProject.scss";
@@ -18,8 +18,11 @@ function SingleProject() {
   const currentProjectIndex = projects.findIndex(
     (project) => project.id === projectId
   );
-  const nextProject = projects[currentProjectIndex + 1];
-  const prevProject = projects[currentProjectIndex - 1];
+  const projectLength = projects.length;
+  const nextProject =
+    projects[(currentProjectIndex + projectLength + 1) % projectLength];
+  const prevProject =
+    projects[(currentProjectIndex + projectLength - 1) % projectLength];
 
   return (
     <>
@@ -44,7 +47,43 @@ function SingleProject() {
               isVisible={true}
             >
               <div className="mt-3 mt-lg-0">
-                <h2>Project Info:</h2>
+                <div className="d-flex align-items-center justify-content-between">
+                  <h2>Project Info:</h2>
+                  <div className="d-flex align-items-center justify-content-end">
+                    <Button
+                      onClick={() => navigate(`/projects/${prevProject.id}`)}
+                      className="d-flex align-items-center"
+                      variant="light"
+                      size="sm"
+                      aria-label="Go to previous project"
+                    >
+                      <FaAngleLeft className="nav-icons" />
+                    </Button>
+                    <LinkContainer to="/projects">
+                      <div>
+                        <Button
+                          onClick={() => navigate(`/projects/`)}
+                          variant="light"
+                          size="sm"
+                          className="d-flex align-items-center"
+                          aria-label="Back to projects"
+                        >
+                          <FaThLarge className="nav-icons" />
+                        </Button>
+                      </div>
+                    </LinkContainer>
+                    <Button
+                      onClick={() => navigate(`/projects/${nextProject.id}`)}
+                      variant="light"
+                      size="sm"
+                      className="d-flex align-items-center"
+                      aria-label="Go to next project"
+                    >
+                      <FaAngleRight className="nav-icons" />
+                    </Button>
+                  </div>
+                </div>
+                <div className="blue-border"></div>
                 <p>{content}</p>
                 <hr></hr>
                 <div className="d-flex justify-content-between mb-5">
@@ -55,38 +94,6 @@ function SingleProject() {
                   <a href={projectURL} rel="noreferrer" target="_blank">
                     {projectURL}
                   </a>
-                </div>
-                {/* <LinkContainer to="/projects">
-                  <div className="text-left">
-                    <Button
-                      variant="primary"
-                      className="d-flex align-items-center"
-                      size="lg"
-                    >
-                      <FaAngleLeft className="me-2" />
-                      Back to Projects
-                    </Button>
-                  </div>
-                </LinkContainer> */}
-
-                <div className="d-flex justify-content-between">
-                  <Button
-                    onClick={() => navigate(`/projects/${prevProject.id}`)}
-                    variant="primary"
-                    size="lg"
-                    className="d-flex align-items-center"
-                  >
-                    <FaAngleLeft className="nav-icons" />
-                  </Button>
-                  <div>Navigate</div>
-                  <Button
-                    onClick={() => navigate(`/projects/${nextProject.id}`)}
-                    variant="primary"
-                    size="lg"
-                    className="d-flex align-items-center"
-                  >
-                    <FaAngleRight className="nav-icons" />
-                  </Button>
                 </div>
               </div>
             </Animated>

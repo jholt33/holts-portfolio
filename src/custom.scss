@@ -60,13 +60,17 @@ h1 {
 
 h2 {
     font-family: 'Raleway', sans-serif;
-    padding: 0 0 1rem;
-    border-bottom: 2px solid $primary;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 
 .text-bold {
     font-weight: 600;
+}
+
+.blue-border {
+    padding: 0 0 1rem;
+    border-bottom: 2px solid $primary;
+    margin-bottom: 1rem;
 }
 
 .breadcrumb-item {

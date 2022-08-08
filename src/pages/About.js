@@ -13,6 +13,7 @@ function About() {
       >
         <section className="container my-5">
           <h2>Page Title</h2>
+          <div className="blue-border"></div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
             aut aliquam vero culpa at quis possimus ea quidem cum quae et

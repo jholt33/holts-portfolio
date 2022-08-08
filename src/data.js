@@ -4,7 +4,7 @@ const projects = [
     name: "Susie",
     image: "https://placedog.net/800/640?id=32",
     content: (
-      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
     ),
     projectURL: "https://placedog.net/",
   },
@@ -22,7 +22,7 @@ const projects = [
     name: "Hank",
     image: "https://placedog.net/800/640?id=69",
     content: (
-      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
     ),
     projectURL: "https://placedog.net/",
   },
@@ -40,7 +40,7 @@ const projects = [
     name: "Frank",
     image: "https://placedog.net/800/640?id=22",
     content: (
-      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non. <br></br><br></br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
     ),
     projectURL: "https://placedog.net/",
   },
@@ -76,7 +76,7 @@ const projects = [
     name: "Lady",
     image: "https://placedog.net/800/640?id=54",
     content: (
-      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
     ),
     projectURL: "https://placedog.net/",
   },
