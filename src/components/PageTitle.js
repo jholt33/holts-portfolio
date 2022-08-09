@@ -7,7 +7,7 @@ function PageTitle(props) {
       <div className="container d-lg-flex flex-wrap align-items-center">
         <div className="d-flex flex-column">
           <h1>{props.title}</h1>
-          {/* Check if subtitle exist and render <p> tag */}
+          {/* Check if subtitle exists and render <p> tag */}
           {props.subtitle && <p>{props.subtitle}</p>}
         </div>
         <div className="ms-lg-auto">
