@@ -8,6 +8,7 @@ import Layout from "./pages/Layout";
 import Projects from "./pages/Projects";
 import SingleProject from "./pages/SingleProject";
 import SingleProjectLayout from "./pages/SingleProjectLayout";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path=":projectId" element={<SingleProject />} />
           </Route>
 
+          <Route path="contact" element={<Contact />} />
           <Route path="*" element={<Error />} />
         </Route>
       </Routes>
