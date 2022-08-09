@@ -1,6 +1,11 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
+import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
+
+import config from "../configData.json";
+
 export const Contact = () => {
   const form = useRef();
 
@@ -9,31 +14,36 @@ export const Contact = () => {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        config.serviceId,
+        config.templateId,
         form.current,
-        "YOUR_PUBLIC_KEY"
+        config.publicKey
       )
       .then(
         (result) => {
-          console.log(result.text);
+          <div>Message Sent!</div>;
         },
         (error) => {
-          console.log(error.text);
+          <div>The message cannot be sent.</div>;
         }
       );
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+    <>
+      <Form ref={form} onSubmit={sendEmail}>
+        <label>Name</label>
+        <input type="text" name="from_name" />
+        <label>Email</label>
+        <input type="email" name="user_email" />
+        <label>Message</label>
+        <textarea name="user_message" />
+        <Button type="submit" value="Send" variant="primary">
+          Submit
+        </Button>
+        {/* <input type="submit" value="Send" /> */}
+      </Form>
+    </>
   );
 };
 
