@@ -1,0 +1,5 @@
+textarea {
+  &.form-control-lg {
+    min-height: calc(1.5em + 5rem + 2px);
+  }
+}

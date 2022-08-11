@@ -20,7 +20,7 @@ const projects = [
   {
     id: "hank",
     name: "Hank",
-    image: "https://placedog.net/800/640?id=69",
+    image: "https://placedog.net/800/640?id=43",
     content: (
       <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
     ),
@@ -47,7 +47,7 @@ const projects = [
   {
     id: "gloria",
     name: "Gloria",
-    image: "https://placedog.net/800/640?id=24",
+    image: "https://placedog.net/800/640?id=29",
     content: (
       <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
     ),
