@@ -28,6 +28,8 @@ export const Contact = () => {
       .then(
         () => {
           alert("Your message has been sent.");
+          setValidated(false);
+          e.target.reset();
         },
         (error) => {
           alert("There was a problem sending your message.", error);
@@ -41,6 +43,7 @@ export const Contact = () => {
       event.preventDefault();
       event.stopPropagation();
     } else {
+      // alert("Message was sent!");
       sendEmail(event);
     }
     setValidated(true);
