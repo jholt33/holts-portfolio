@@ -3,7 +3,7 @@ import logo from "../images/fsc-logo-main.svg";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { FaHome, FaUserTie, FaBriefcase } from "react-icons/fa";
+import { FaHome, FaUserTie, FaBriefcase, FaPaperPlane } from "react-icons/fa";
 
 import "./MainNav.scss";
 
@@ -50,6 +50,14 @@ function MainNav() {
                   <span className="d-flex align-items-center">
                     <FaUserTie />
                     <span className="text-bold ps-2">About</span>
+                  </span>
+                </Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/contact">
+                <Nav.Link active={false}>
+                  <span className="d-flex align-items-center">
+                    <FaPaperPlane />
+                    <span className="text-bold ps-2">Contact</span>
                   </span>
                 </Nav.Link>
               </LinkContainer>
