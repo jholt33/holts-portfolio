@@ -6,13 +6,18 @@ import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
+import Modal from "react-bootstrap/Modal";
 import { Animated } from "react-animated-css";
+import { FaPaperPlane } from "react-icons/fa";
 
 import config from "../configData.json";
 
 import "./Contact.scss";
 
 export const Contact = () => {
+  const [show, setShowModal] = useState(false);
+  const handleClose = () => setShowModal(false);
+
   const [validated, setValidated] = useState(false);
   const form = useRef();
 
@@ -28,7 +33,6 @@ export const Contact = () => {
       )
       .then(
         () => {
-          alert("Your message has been sent.");
           setValidated(false);
           e.target.reset();
         },
@@ -44,8 +48,8 @@ export const Contact = () => {
       event.preventDefault();
       event.stopPropagation();
     } else {
-      // alert("Message was sent!");
       sendEmail(event);
+      setShowModal(true);
     }
     setValidated(true);
   };
@@ -61,6 +65,18 @@ export const Contact = () => {
       >
         <div className="container my-5">
           <h2 className="mb-4">Leave a Message</h2>
+          <Modal
+            show={show}
+            onHide={handleClose}
+            size="lg"
+            aria-labelledby="message-modal"
+            dialogClassName="contact-dialog"
+          >
+            <Modal.Header closeButton>
+              <Modal.Title id="message-modal"><span className="d-flex align-items-center">Message Sent!<FaPaperPlane className="ms-2" /></span></Modal.Title>
+            </Modal.Header>
+            <Modal.Body>Your message has been received.</Modal.Body>
+          </Modal>
           <Form
             noValidate
             ref={form}

@@ -1,5 +1,17 @@
+@import '../custom.scss';
+
 textarea {
   &.form-control-lg {
     min-height: calc(1.5em + 5rem + 2px);
+  }
+}
+
+.contact-dialog {
+  .modal-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 28px;
+  }
+  svg {
+    color: $primary;
   }
 }
