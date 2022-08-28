@@ -13,7 +13,7 @@ function ProjectCards() {
     <Row>
       {projects.map((project) => {
         return (
-          <Col md={4} key={project.id}>
+          <Col lg={3} md={4} key={project.id}>
             <Animated
               animationIn="fadeIn"
               animationOut="fadeOut"
@@ -22,7 +22,7 @@ function ProjectCards() {
             >
               <LinkContainer to={`/projects/${project.id}`}>
                 <Card className="my-3">
-                  <Card.Img variant="top" src={project.image} />
+                  <Card.Img variant="top" src={project.thumb} />
                   <Card.Body className="px-4">
                     <Card.Title>{project.name}</Card.Title>
                     <Card.Text>{project.content}</Card.Text>

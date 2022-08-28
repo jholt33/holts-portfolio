@@ -1,3 +1,13 @@
+.card {
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0px 3px 15px #999;
+        border: 1px solid #d2d2d2;
+    }
+}
+
 .card-title {
     &.h5 {
         font-family: 'Raleway', sans-serif;

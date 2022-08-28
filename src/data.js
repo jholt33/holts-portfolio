@@ -1,84 +1,82 @@
 const projects = [
   {
-    id: "susie",
-    name: "Susie",
-    image: "https://placedog.net/800/640?id=32",
+    id: "the-denver-hopper",
+    name: "Denver Hopper",
+    image: "/images/denverhopper.jpeg",
+    thumb: "/images/thumbs/denverhopper.png",
     content: (
-      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
+      <span>
+        Fully responsive WordPress theme using Revolution Slider, custom post
+        types / templates, google maps and latest HTML5, CSS3, and jQuery.
+      </span>
     ),
-    projectURL: "https://placedog.net/",
+    projectURL: "https://denverhopper.com/",
   },
   {
-    id: "jimmy",
-    name: "Jimmy",
-    image: "https://placedog.net/800/640?id=100",
+    id: "live-worldly",
+    name: "Live Worldly",
+    image: "/images/liveworldly.jpeg",
+    thumb: "/images/thumbs/liveworldly.png",
     content: (
-      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
+      <span>
+        Denver based fashion company. Front-End Development using BigCommerce.
+      </span>
     ),
-    projectURL: "https://placedog.net/",
+    projectURL: "https://liveworldly.com/",
   },
   {
-    id: "hank",
-    name: "Hank",
-    image: "https://placedog.net/800/640?id=43",
+    id: "breaking-silence",
+    name: "Breaking Silence",
+    image: "/images/bssd.jpeg",
+    thumb: "/images/thumbs/bssd.png",
     content: (
-      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
+      <span>
+        Denver based audio and video production company. This website uses some
+        of the latest technologies including jQuery sliders, HTML, CSS and
+        Javascript.
+      </span>
     ),
-    projectURL: "https://placedog.net/",
+    projectURL: "http://breakingsilence.com",
   },
   {
-    id: "bosley",
-    name: "Bosley",
-    image: "https://placedog.net/800/640?id=21",
+    id: "lyfe-sport",
+    name: "Lyfe Sport",
+    image: "/images/lyfesport.jpeg",
+    thumb: "/images/thumbs/lyfesport.png",
     content: (
-      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
+      <span>
+        Fully responsive WordPress theme customization using Revolution Slider,
+        custom post types / templates, Google DFP ad integration and latest
+        HTML5, CSS3 techniques.
+      </span>
     ),
-    projectURL: "https://placedog.net/",
+    projectURL: "http://lyfesport.com",
   },
   {
-    id: "frank",
-    name: "Frank",
-    image: "https://placedog.net/800/640?id=22",
+    id: "auth-anvil",
+    name: "Auth Anvil",
+    image: "/images/authanvil.jpeg",
+    thumb: "/images/thumbs/authanvil.png",
     content: (
-      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non. <br></br><br></br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
+      <span>
+        Drupal custom theme for software company AuthAnvil. Built on HTML, CSS,
+        jQuery, JS and PHP.
+      </span>
     ),
-    projectURL: "https://placedog.net/",
+    projectURL: "https://authanvil.com/",
   },
   {
-    id: "gloria",
-    name: "Gloria",
-    image: "https://placedog.net/800/640?id=29",
+    id: "mychelle",
+    name: "Mychelle",
+    image: "/images/mychelle.jpeg",
+    thumb: "/images/thumbs/mychelle.png",
     content: (
-      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
+      <span>
+        National brand Mychelle Dermaceuticals. Front-End Development E-Commerce
+        website using NetSuite platform.
+      </span>
     ),
-    projectURL: "https://placedog.net/",
-  },
-  {
-    id: "robbie",
-    name: "Robbie",
-    image: "https://placedog.net/800/640?id=60",
-    content: (
-      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
-    ),
-    projectURL: "https://placedog.net/",
-  },
-  {
-    id: "lonnie",
-    name: "Lonnie",
-    image: "https://placedog.net/800/640?id=62",
-    content: (
-      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
-    ),
-    projectURL: "https://placedog.net/",
-  },
-  {
-    id: "lady",
-    name: "Lady",
-    image: "https://placedog.net/800/640?id=54",
-    content: (
-      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magnam veniam harum at qui quisquam impedit tempore reprehenderit! Ratione exercitationem reprehenderit vero! Voluptatem explicabo exercitationem alias iure eos harum non.</span>
-    ),
-    projectURL: "https://placedog.net/",
+    projectURL: " http://www.mychelle.com/",
   },
 ];
 

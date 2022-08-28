@@ -1,0 +1,16 @@
+$secondary: #333;
+
+.breadcrumb {
+    margin-bottom: 0;
+
+    .breadcrumb-item {
+        &.active {
+            a {
+                color: $secondary;
+                text-decoration: none;
+                cursor: auto;
+                text-transform: capitalize;
+            }
+        }
+    }
+}

@@ -15,9 +15,10 @@ function Home() {
         <div className="container d-flex flex-column text-center">
           <h1 className="display-1">Welcome!</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            aut aliquam vero culpa at quis possimus ea quidem cum quae et
-            quisquam rem corrupti itaque aliquid sint, in ad explicabo.
+            To the online portfolio of Jeremy Holt - Sr. UI/UX Developer who has
+            been creating rich user experiances across the web for over 14
+            years. Scroll down to view some of his past and present web projects
+            and creations.
           </p>
         </div>
       </div>
