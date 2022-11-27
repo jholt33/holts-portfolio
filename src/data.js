@@ -76,7 +76,134 @@ const projects = [
         website using NetSuite platform.
       </span>
     ),
-    projectURL: " http://www.mychelle.com/",
+    projectURL: "http://www.mychelle.com/",
+  },
+  {
+    id: "dai",
+    name: "DAI Solutions",
+    image: "/images/dai.jpeg",
+    thumb: "/images/thumbs/dai.png",
+    content: (
+      <span>
+        Fully responsive WordPress theme customization using Revolution Slider,
+        custom post types / templates, and latest HTML5, CSS3 techniques.
+      </span>
+    ),
+    projectURL: "http://www.dai-solutions.com/",
+  },
+  {
+    id: "kaseya",
+    name: "Kaseya",
+    image: "/images/kaseya.jpeg",
+    thumb: "/images/thumbs/kaseya.png",
+    content: (
+      <span>
+        Drupal custom theme for software company Kaseya. Built on HTML, CSS,
+        jQuery, JS and PHP.
+      </span>
+    ),
+    projectURL: "https://www.kaseya.com/",
+  },
+  {
+    id: "athome",
+    name: "At Home Colorado",
+    image: "/images/athomeco.jpeg",
+    thumb: "/images/thumbs/athomeco.png",
+    content: (
+      <span>
+        Colorado Real Estate website built on Wordpress using the Genesis
+        framework using HTML, CSS, jQuery and PHP.
+      </span>
+    ),
+    projectURL: "https://www.athomecolorado.com/",
+  },
+  {
+    id: "denver-bacon",
+    name: "Denver Bacon Company",
+    image: "/images/dbc.jpeg",
+    thumb: "/images/thumbs/dbc.png",
+    content: (
+      <span>
+        Fully responsive Wordpress based theme for local Denver bacon company.
+      </span>
+    ),
+    projectURL: "http://denverbaconco.com",
+  },
+  {
+    id: "hours-into-days",
+    name: "Hours Into Days",
+    image: "/images/hid.jpeg",
+    thumb: "/images/thumbs/hid.png",
+    content: (
+      <span>
+        Denver based rock band website for Hours Into Days. Built using CSS,
+        HTML, Javascript and Flash.
+      </span>
+    ),
+    projectURL: "http://hoursintodays.com",
+  },
+  {
+    id: "it-glue",
+    name: "IT Glue",
+    image: "/images/itglue.jpeg",
+    thumb: "/images/thumbs/itglue.png",
+    content: (
+      <span>Wordpress theme development using PHP/HTML/CSS/jQuery.</span>
+    ),
+    projectURL: "https://www.itglue.com/",
+  },
+  {
+    id: "kaseya-connect",
+    name: "Kaseya Connect",
+    image: "/images/kaseya-connect.jpeg",
+    thumb: "/images/thumbs/kaseya-connect.png",
+    content: (
+      <span>
+        Wordpress theme customization using custom post types, canvas,
+        revolution slider and custom calendar plugins.
+      </span>
+    ),
+    projectURL: "https://www.connectit.com/europe/",
+  },
+  {
+    id: "laboratories-made-better",
+    name: "Laboratories Made Better",
+    image: "/images/lmb.jpeg",
+    thumb: "/images/thumbs/lmb.png",
+    content: (
+      <span>
+        This site was built using purely CSS, HTML and Javascript. A simple 3
+        column layout with a easy to use left side navigation.
+      </span>
+    ),
+    projectURL: "http://laboratoriesmadebetter.com",
+  },
+  {
+    id: "lucid-theory",
+    name: "Lucid Theory",
+    image: "/images/lucid-theory.jpeg",
+    thumb: "/images/thumbs/lucid-theory.png",
+    content: (
+      <span>
+        Flash based website for Post-Hardcore band Lucid Theory based out of
+        Littleton, Colorado
+      </span>
+    ),
+    projectURL: "http://lucidtheory.com",
+  },
+  {
+    id: "lyfe-media",
+    name: "Lyfe Media",
+    image: "/images/lyfemedia.jpeg",
+    thumb: "/images/thumbs/lyfemedia.png",
+    content: (
+      <span>
+        Fully responsive WordPress theme customization using masonry grid
+        layout, custom post types / templates, auto post feeder and latest
+        HTML5, CSS3 techniques.
+      </span>
+    ),
+    projectURL: " http://lyfemedia.com",
   },
 ];
 
