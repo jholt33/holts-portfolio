@@ -75,3 +75,16 @@ h2 {
   border-bottom: 2px solid $primary;
   margin-bottom: 1rem;
 }
+
+.italic-text {
+  color: $primary;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.social-icons {
+  font-size: 4rem;
+  margin: 0 0.5rem 0 0;
+}

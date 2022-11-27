@@ -1,5 +1,38 @@
 const projects = [
   {
+    id: "vorex",
+    name: "Vorex",
+    image: "/images/vorex.jpeg",
+    thumb: "/images/thumbs/vorex.png",
+    content: (
+      <span>
+        Custom Wordpress theme built using custom post types, advanced custom
+        fields, HTML5, CSS3 and jQuery.
+      </span>
+    ),
+    projectURL: "https://www.vorex.com/",
+  },
+  {
+    id: "unitrends",
+    name: "Unitrends MSP",
+    image: "/images/unitrends.jpeg",
+    thumb: "/images/thumbs/unitrends.png",
+    content: (
+      <span>Wordpress theme with custom ROI calculator using jQuery.</span>
+    ),
+    projectURL: "https://www.unitrends.com/",
+  },
+  {
+    id: "suuthe",
+    name: "Suuthe",
+    image: "/images/suuthe.jpeg",
+    thumb: "/images/thumbs/suuthe.png",
+    content: (
+      <span>BigCommerce website using HTML5, CSS3 and jQuery slider.</span>
+    ),
+    projectURL: "https://suuthe.com/",
+  },
+  {
     id: "the-denver-hopper",
     name: "Denver Hopper",
     image: "/images/denverhopper.jpeg",
@@ -203,7 +236,42 @@ const projects = [
         HTML5, CSS3 techniques.
       </span>
     ),
-    projectURL: " http://lyfemedia.com",
+    projectURL: "http://lyfemedia.com",
+  },
+  {
+    id: "lyfe-traveler",
+    name: "Lyfe Traveler",
+    image: "/images/lyfetraveler.jpeg",
+    thumb: "/images/thumbs/lyfetraveler.png",
+    content: (
+      <span>
+        Fully responsive WordPress theme using Revolution Slider and latest
+        HTML5, CSS3 techniques.
+      </span>
+    ),
+    projectURL: "http://lyfetraveler.com",
+  },
+  {
+    id: "mds",
+    name: "MDS Contractors Inc.",
+    image: "/images/mds.jpeg",
+    thumb: "/images/thumbs/mds.png",
+    content: (
+      <span>
+        MDS Contractors Inc. is a construction company that remodels homes and
+        apartments. This website uses some of the latest technologies including
+        jQuery sliders, HTML, CSS and Javascript.
+      </span>
+    ),
+    projectURL: "http://mdscontractors.com",
+  },
+  {
+    id: "pes",
+    name: "Professional Engineering Services",
+    image: "/images/pes.jpeg",
+    thumb: "/images/thumbs/pes.png",
+    content: <span>Built purely on CSS, HTML, Javascript and jQuery.</span>,
+    projectURL: "http://proengineering.com",
   },
 ];
 
