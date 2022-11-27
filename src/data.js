@@ -267,7 +267,7 @@ const projects = [
   },
   {
     id: "pes",
-    name: "Professional Engineering Services",
+    name: "Professional Engineering",
     image: "/images/pes.jpeg",
     thumb: "/images/thumbs/pes.png",
     content: <span>Built purely on CSS, HTML, Javascript and jQuery.</span>,
