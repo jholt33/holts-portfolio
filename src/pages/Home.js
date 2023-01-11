@@ -1,5 +1,6 @@
 import { Animated } from "react-animated-css";
 import ProjectCards from "../components/ProjectCards";
+// import { FaReact } from "react-icons/fa";
 
 import "./Home.scss";
 
@@ -13,12 +14,11 @@ function Home() {
     >
       <div className="homepg-hdr">
         <div className="container d-flex flex-column text-center">
-          <h1 className="display-1">Welcome!</h1>
+          <h1 className="display-1">Welcome to Holt's Code</h1>
           <p>
-            To the online portfolio of Jeremy Holt - Sr. UI/UX Developer who has
-            been creating rich user experiances across the web for over 14
-            years. Scroll down to view some of his past and present web projects
-            and creations.
+            You have reached the online portfolio of Jeremy Holt - Sr. UI
+            Developer/Engineer<br></br>Scroll down to view some of my past web
+            projects and creations
           </p>
         </div>
       </div>
