@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/holts-portfolio/static/css/main.7da38797.css",
-    "main.js": "/holts-portfolio/static/js/main.a3e93cab.js",
-    "static/js/787.c0f8a72f.chunk.js": "/holts-portfolio/static/js/787.c0f8a72f.chunk.js",
+    "main.js": "/holts-portfolio/static/js/main.c18c379a.js",
+    "static/js/787.5ae9e5e8.chunk.js": "/holts-portfolio/static/js/787.5ae9e5e8.chunk.js",
     "static/media/urad.jpeg": "/holts-portfolio/static/media/urad.20cc55c51527f9b7d641.jpeg",
     "static/media/fsc-logo-main.svg": "/holts-portfolio/static/media/fsc-logo-main.5a733a2f8221e468220a27438dadb6e7.svg",
     "index.html": "/holts-portfolio/index.html",
     "main.7da38797.css.map": "/holts-portfolio/static/css/main.7da38797.css.map",
-    "main.a3e93cab.js.map": "/holts-portfolio/static/js/main.a3e93cab.js.map",
-    "787.c0f8a72f.chunk.js.map": "/holts-portfolio/static/js/787.c0f8a72f.chunk.js.map"
+    "main.c18c379a.js.map": "/holts-portfolio/static/js/main.c18c379a.js.map",
+    "787.5ae9e5e8.chunk.js.map": "/holts-portfolio/static/js/787.5ae9e5e8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7da38797.css",
-    "static/js/main.a3e93cab.js"
+    "static/js/main.c18c379a.js"
   ]
 }
