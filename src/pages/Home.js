@@ -14,7 +14,7 @@ function Home() {
     >
       <div className="homepg-hdr">
         <div className="container d-flex flex-column text-center">
-          <h1 className="display-1">Welcome to Holt's Code</h1>
+          <h1 className="display-1">Welcome to Holt's Code!</h1>
           <p>
             You have reached the online portfolio of Jeremy Holt - Sr. UI/UX
             Developer<br></br>Scroll down to view some of my past web projects
