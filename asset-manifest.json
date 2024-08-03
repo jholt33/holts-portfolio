@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/holts-portfolio/static/css/main.f94d3038.css",
-    "main.js": "/holts-portfolio/static/js/main.735be7de.js",
+    "main.js": "/holts-portfolio/static/js/main.06f15ae9.js",
     "static/js/787.e712d661.chunk.js": "/holts-portfolio/static/js/787.e712d661.chunk.js",
     "static/media/urad.jpeg": "/holts-portfolio/static/media/urad.20cc55c51527f9b7d641.jpeg",
     "static/media/fsc-logo-main.svg": "/holts-portfolio/static/media/fsc-logo-main.5a733a2f8221e468220a27438dadb6e7.svg",
     "index.html": "/holts-portfolio/index.html",
     "main.f94d3038.css.map": "/holts-portfolio/static/css/main.f94d3038.css.map",
-    "main.735be7de.js.map": "/holts-portfolio/static/js/main.735be7de.js.map",
+    "main.06f15ae9.js.map": "/holts-portfolio/static/js/main.06f15ae9.js.map",
     "787.e712d661.chunk.js.map": "/holts-portfolio/static/js/787.e712d661.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f94d3038.css",
-    "static/js/main.735be7de.js"
+    "static/js/main.06f15ae9.js"
   ]
 }
