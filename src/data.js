@@ -2,8 +2,8 @@ const projects = [
   {
     id: "vorex",
     name: "Vorex",
-    image: "/images/vorex.jpeg",
-    thumb: "/images/thumbs/vorex.png",
+    image: "/holts-portfolio/images/vorex.jpeg",
+    thumb: "/holts-portfolio/images/thumbs/vorex.png",
     content: (
       <span>
         Custom Wordpress theme built using custom post types, advanced custom
@@ -15,8 +15,8 @@ const projects = [
   {
     id: "unitrends",
     name: "Unitrends MSP",
-    image: "/images/unitrends.jpeg",
-    thumb: "/images/thumbs/unitrends.png",
+    image: "/holts-portfolio/images/unitrends.jpeg",
+    thumb: "/holts-portfolio/images/thumbs/unitrends.png",
     content: (
       <span>Wordpress theme with custom ROI calculator using jQuery.</span>
     ),
@@ -25,8 +25,8 @@ const projects = [
   {
     id: "suuthe",
     name: "Suuthe",
-    image: "/images/suuthe.jpeg",
-    thumb: "/images/thumbs/suuthe.png",
+    image: "/holts-portfolio/images/suuthe.jpeg",
+    thumb: "/holts-portfolio/images/thumbs/suuthe.png",
     content: (
       <span>BigCommerce website using HTML5, CSS3 and jQuery slider.</span>
     ),
@@ -35,8 +35,8 @@ const projects = [
   {
     id: "the-denver-hopper",
     name: "Denver Hopper",
-    image: "/images/denverhopper.jpeg",
-    thumb: "/images/thumbs/denverhopper.png",
+    image: "/holts-portfolio/images/denverhopper.jpeg",
+    thumb: "/holts-portfolio/images/thumbs/denverhopper.png",
     content: (
       <span>
         Fully responsive WordPress theme using Revolution Slider, custom post
@@ -48,8 +48,8 @@ const projects = [
   {
     id: "live-worldly",
     name: "Live Worldly",
-    image: "/images/liveworldly.jpeg",
-    thumb: "/images/thumbs/liveworldly.png",
+    image: "/holts-portfolio/images/liveworldly.jpeg",
+    thumb: "/holts-portfolio/images/thumbs/liveworldly.png",
     content: (
       <span>
         Denver based fashion company. Front-End Development using BigCommerce.
@@ -60,8 +60,8 @@ const projects = [
   {
     id: "breaking-silence",
     name: "Breaking Silence",
-    image: "/images/bssd.jpeg",
-    thumb: "/images/thumbs/bssd.png",
+    image: "/holts-portfolio/images/bssd.jpeg",
+    thumb: "/holts-portfolio/images/thumbs/bssd.png",
     content: (
       <span>
         Denver based audio and video production company. This website uses some
@@ -74,8 +74,8 @@ const projects = [
   {
     id: "lyfe-sport",
     name: "Lyfe Sport",
-    image: "/images/lyfesport.jpeg",
-    thumb: "/images/thumbs/lyfesport.png",
+    image: "/holts-portfolio/images/lyfesport.jpeg",
+    thumb: "/holts-portfolio/images/thumbs/lyfesport.png",
     content: (
       <span>
         Fully responsive WordPress theme customization using Revolution Slider,
@@ -88,8 +88,8 @@ const projects = [
   {
     id: "auth-anvil",
     name: "Auth Anvil",
-    image: "/images/authanvil.jpeg",
-    thumb: "/images/thumbs/authanvil.png",
+    image: "/holts-portfolio/images/authanvil.jpeg",
+    thumb: "/holts-portfolio/images/thumbs/authanvil.png",
     content: (
       <span>
         Drupal custom theme for software company AuthAnvil. Built on HTML, CSS,
@@ -101,8 +101,8 @@ const projects = [
   {
     id: "mychelle",
     name: "Mychelle",
-    image: "/images/mychelle.jpeg",
-    thumb: "/images/thumbs/mychelle.png",
+    image: "/holts-portfolio/images/mychelle.jpeg",
+    thumb: "/holts-portfolio/images/thumbs/mychelle.png",
     content: (
       <span>
         National brand Mychelle Dermaceuticals. Front-End Development E-Commerce
@@ -114,8 +114,8 @@ const projects = [
   {
     id: "dai",
     name: "DAI Solutions",
-    image: "/images/dai.jpeg",
-    thumb: "/images/thumbs/dai.png",
+    image: "/holts-portfolio/images/dai.jpeg",
+    thumb: "/holts-portfolio/images/thumbs/dai.png",
     content: (
       <span>
         Fully responsive WordPress theme customization using Revolution Slider,
@@ -127,8 +127,8 @@ const projects = [
   {
     id: "kaseya",
     name: "Kaseya",
-    image: "/images/kaseya.jpeg",
-    thumb: "/images/thumbs/kaseya.png",
+    image: "/holts-portfolio/images/kaseya.jpeg",
+    thumb: "/holts-portfolio/images/thumbs/kaseya.png",
     content: (
       <span>
         Drupal custom theme for software company Kaseya. Built on HTML, CSS,
@@ -140,8 +140,8 @@ const projects = [
   {
     id: "athome",
     name: "At Home Colorado",
-    image: "/images/athomeco.jpeg",
-    thumb: "/images/thumbs/athomeco.png",
+    image: "/holts-portfolio/images/athomeco.jpeg",
+    thumb: "/holts-portfolio/images/thumbs/athomeco.png",
     content: (
       <span>
         Colorado Real Estate website built on Wordpress using the Genesis
@@ -153,8 +153,8 @@ const projects = [
   {
     id: "denver-bacon",
     name: "Denver Bacon Company",
-    image: "/images/dbc.jpeg",
-    thumb: "/images/thumbs/dbc.png",
+    image: "/holts-portfolio/images/dbc.jpeg",
+    thumb: "/holts-portfolio/images/thumbs/dbc.png",
     content: (
       <span>
         Fully responsive Wordpress based theme for local Denver bacon company.
@@ -165,8 +165,8 @@ const projects = [
   {
     id: "hours-into-days",
     name: "Hours Into Days",
-    image: "/images/hid.jpeg",
-    thumb: "/images/thumbs/hid.png",
+    image: "/holts-portfolio/images/hid.jpeg",
+    thumb: "/holts-portfolio/images/thumbs/hid.png",
     content: (
       <span>
         Denver based rock band website for Hours Into Days. Built using CSS,
@@ -178,8 +178,8 @@ const projects = [
   {
     id: "it-glue",
     name: "IT Glue",
-    image: "/images/itglue.jpeg",
-    thumb: "/images/thumbs/itglue.png",
+    image: "/holts-portfolio/images/itglue.jpeg",
+    thumb: "/holts-portfolio/images/thumbs/itglue.png",
     content: (
       <span>Wordpress theme development using PHP/HTML/CSS/jQuery.</span>
     ),
@@ -188,8 +188,8 @@ const projects = [
   {
     id: "kaseya-connect",
     name: "Kaseya Connect",
-    image: "/images/kaseya-connect.jpeg",
-    thumb: "/images/thumbs/kaseya-connect.png",
+    image: "/holts-portfolio/images/kaseya-connect.jpeg",
+    thumb: "/holts-portfolio/images/thumbs/kaseya-connect.png",
     content: (
       <span>
         Wordpress theme customization using custom post types, canvas,
@@ -201,8 +201,8 @@ const projects = [
   {
     id: "laboratories-made-better",
     name: "Laboratories Made Better",
-    image: "/images/lmb.jpeg",
-    thumb: "/images/thumbs/lmb.png",
+    image: "/holts-portfolio/images/lmb.jpeg",
+    thumb: "/holts-portfolio/images/thumbs/lmb.png",
     content: (
       <span>
         This site was built using purely CSS, HTML and Javascript. A simple 3
@@ -214,8 +214,8 @@ const projects = [
   {
     id: "lucid-theory",
     name: "Lucid Theory",
-    image: "/images/lucid-theory.jpeg",
-    thumb: "/images/thumbs/lucid-theory.png",
+    image: "/holts-portfolio/images/lucid-theory.jpeg",
+    thumb: "/holts-portfolio/images/thumbs/lucid-theory.png",
     content: (
       <span>
         Flash based website for Post-Hardcore band Lucid Theory based out of
@@ -227,8 +227,8 @@ const projects = [
   {
     id: "lyfe-media",
     name: "Lyfe Media",
-    image: "/images/lyfemedia.jpeg",
-    thumb: "/images/thumbs/lyfemedia.png",
+    image: "/holts-portfolio/images/lyfemedia.jpeg",
+    thumb: "/holts-portfolio/images/thumbs/lyfemedia.png",
     content: (
       <span>
         Fully responsive WordPress theme customization using masonry grid
@@ -241,8 +241,8 @@ const projects = [
   {
     id: "lyfe-traveler",
     name: "Lyfe Traveler",
-    image: "/images/lyfetraveler.jpeg",
-    thumb: "/images/thumbs/lyfetraveler.png",
+    image: "/holts-portfolio/images/lyfetraveler.jpeg",
+    thumb: "/holts-portfolio/images/thumbs/lyfetraveler.png",
     content: (
       <span>
         Fully responsive WordPress theme using Revolution Slider and latest
@@ -254,8 +254,8 @@ const projects = [
   {
     id: "mds",
     name: "MDS Contractors Inc.",
-    image: "/images/mds.jpeg",
-    thumb: "/images/thumbs/mds.png",
+    image: "/holts-portfolio/images/mds.jpeg",
+    thumb: "/holts-portfolio/images/thumbs/mds.png",
     content: (
       <span>
         MDS Contractors Inc. is a construction company that remodels homes and
@@ -268,8 +268,8 @@ const projects = [
   {
     id: "pes",
     name: "Professional Engineering",
-    image: "/images/pes.jpeg",
-    thumb: "/images/thumbs/pes.png",
+    image: "/holts-portfolio/images/pes.jpeg",
+    thumb: "/holts-portfolio/images/thumbs/pes.png",
     content: <span>Built purely on CSS, HTML, Javascript and jQuery.</span>,
     projectURL: "http://proengineering.com",
   },
